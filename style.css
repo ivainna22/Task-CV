@@ -3,7 +3,7 @@ padding: 25px;
 margin: 0;
 background-color: lightblue;
 }
-.background{
+article #bg{
     border-width: 2px;
     border-style: solid;
     border-color: rgb(144, 190, 243);
@@ -11,34 +11,51 @@ background-color: lightblue;
 }
 img{
     position: absolute;
+    padding-left: 50px;
+    padding-right: 20px;
     }
+
 .header{
-    padding-left: 230px;
+    padding-left: 350px;
     padding-right: 20px;
 }
 h1{
     margin: 20px 0 20px 0;
-    font-size:42px ;
-    font-family:'Times New Roman', Times, serif
-    text-transform: capitalize;
-}
+    font-size:42px;
+    font-family:'Times New Roman', Times, serif;
+    }
+
 #tel{
     display: block;
     font-size:15px ;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #email{
     display: block;
     font-size:15px ;
-    font-family:Georgia, 'Times New Roman', Times, serif}
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 
 h3{
+    margin: 15px 0 15px 0;
     font-size: 17px ;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(12, 12, 12);
 }
 
+p{
+    text-align: justify;
+    margin: 0 0 5px 0;
+}
+
 main{
-    
+    position: absolute; 
+    padding-left: 350px;
+    padding-right: 20px;
+}
+
+aside{
+    position: absolute;
+
 }
