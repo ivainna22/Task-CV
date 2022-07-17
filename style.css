@@ -1,13 +1,8 @@
 body{
-padding: 25px;
-margin: 0;
-background-color: lightblue;
-}
-article{
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(144, 190, 243);
-    background-color: white;
+    width: 1200px;
+    height: 2000px;
+    padding: 25px;
+    
     }
 
 img{
@@ -17,23 +12,25 @@ img{
     }
 
 .header{
-    padding-left: 350px;
+    padding-left: 370px;
     padding-right: 20px;
 }
 h1{
-    margin: 20px 0 20px 0;
+    margin: 20px 0 10px 0;
     font-size:42px;
     font-family:'Times New Roman', Times, serif;
     }
 
 #tel{
     display: block;
+    padding-top: 5px;
     font-size:15px ;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #email{
     display: block;
+    padding-top: 5px;
     font-size:15px ;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -47,16 +44,59 @@ h3{
 
 p{
     text-align: justify;
+    line-height: 1.3em;
     margin: 0 0 5px 0;
+    font-size:15px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 main{
     position: absolute; 
-    padding-left: 350px;
+    padding-top: 20px;
+    padding-left: 370px;
     padding-right: 20px;
 }
 
 aside{
-    position: absolute;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 880px;
 
 }
+.c{
+    text-align: justify;
+    margin: 0 0 5px 0;
+    font-size:14px;
+    font-family: cursive;
+}
+
+h4{
+    margin: 5px 0 5px 0;
+    font-size: 15px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(31, 30, 30);
+}
+h5{
+    margin: 5px 0 5px 0;
+    font-size: 13px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:lightslateblack;
+}
+
+#R{
+    font-style: italic;
+}
+#R>li{
+    font-style: initial;
+    line-height: 1.2em;
+}
+span{
+    padding-left: 290px;
+    padding-top: 15px;
+}
+span#e{
+    padding-left: 190px;
+}
+p#e{
+    padding-top: 20px;
+    }
