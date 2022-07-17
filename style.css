@@ -3,12 +3,13 @@ padding: 25px;
 margin: 0;
 background-color: lightblue;
 }
-article #bg{
+article{
     border-width: 2px;
     border-style: solid;
     border-color: rgb(144, 190, 243);
     background-color: white;
-}
+    }
+
 img{
     position: absolute;
     padding-left: 50px;
