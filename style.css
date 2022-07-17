@@ -1,7 +1,21 @@
 body{
-border-width: 5px;
-border-style: solid;
-border-color: white;
-padding: 20px;
-background-color: peachpuff;
+padding: 25px;
+margin: 0;
+background-color: lightblue;
 }
+
+.background{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(144, 190, 243);
+    background-color: white;
+}
+
+img{
+    position: absolute;
+}
+.header{
+    padding-left: 230px;
+    padding-right: 20px;
+}
+
